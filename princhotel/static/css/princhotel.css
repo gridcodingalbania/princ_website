@@ -1,0 +1,590 @@
+body{
+  background: url('/media/images/bck.jpg') !important;
+  background-size: 100% 100% !important;
+}
+html{
+  scroll-behavior: smooth;
+}
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:white;
+}
+li
+{
+    float: right;
+}
+li a
+{
+  font-family: monospace;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  color:black;
+  padding: 16px;
+  text-decoration: none;
+}
+.map {
+  width: 100%;
+}
+.scroll-top {
+  background: #d4bd6d;
+  border: 0;
+  border-radius: 50%;
+  bottom: 0;
+  cursor: pointer;
+  height: 50px;
+  margin: 15px;
+  opacity: 0.75;
+  position: fixed;
+  right: 0px;
+  transition: right 0.2s ease-in-out;
+  width: 50px;
+  z-index: 99;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.topnav {
+    text-align:right;
+    overflow: hidden;
+    background-color: white;
+    padding: 10px 10px;
+    transition: 0.2s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+.topnav a:hover{
+  font-size:21px;
+  transition: 300ms all ease-in-out;
+}
+.footnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+  padding: 10px 10px;
+  transition: 0.2s;
+  width: 100%;
+  bottom: 0;
+  z-index: 5;
+}
+.footnav a {
+  float: right;
+  font-family: serif;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  color:black;
+  margin-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 2px solid #d4bd6d;
+  text-decoration: none;
+}
+.footnav a:hover{
+  font-size: 21px;
+  transition: 300ms all ease-in-out;
+}
+.footnav a:nth-child(2){
+  border: none;
+  display: none;
+}
+.footnav a:nth-child(3){
+  border: none;
+}
+.footnav a:first-child{
+  border: none;
+}
+.icons {
+  float: right;
+}
+.icon-size{
+  font-size: 20px;
+}
+.border-shadow{
+  box-shadow: 10px 10px 20px -10px gray;
+  border: 40px solid #fff;
+}
+.border-shadow2{
+  box-shadow: 10px 10px 20px -10px gray;
+  background-color: white;
+  border: 70px solid #fff;
+}
+.border-shadow3 {
+  box-shadow: 10px -12px 16px -12px grey;
+  border: 40px solid #fff;
+}
+
+.topnav a {
+  font-family: serif;
+  font-size: 20px;
+  display: inline-flex;
+  text-align: center;
+  color:black;
+  margin-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 2px solid #d4bd6d;
+  text-decoration: none;
+}
+.topnav a:nth-child(7){
+  border: none;
+}
+.topnav a:first-child{
+  border: none;
+}
+.container-fluid- {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.information-content- {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 18px;
+  font-family: Serif;
+}
+.grid-txt-image {
+  width: 100%;
+  border: 30px solid #fff;
+  background: #fff;
+  margin: auto;
+  -moz-box-shadow: 0px 0px 11px .5px #ccc;
+  -webkit-box-shadow: 0px 0px 11px 0.5px #ccc;
+  box-shadow: 0px 0px 11px 0.5px #ccc;
+}
+.nav-logo{
+  float: left;
+  padding-left: 25px;
+}
+#desc {
+  padding-left: 0;
+}
+#desc-image {
+  padding-right: 0;
+  z-index: 2;
+}
+#gallery{
+    padding-left: 15%;
+}
+#rev-wrap{
+  flex-wrap: wrap-reverse;
+}
+#copyright{
+  background-color: white;
+}
+.img-thonjza- {
+  width: 12%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+.client- {
+  color: #d4bd6d;
+  margin-top: 5%;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+.home-hr- {
+  display: block;
+  border: 2px inset;
+  overflow: hidden;
+  margin-left: 48%;
+  margin-right: 48%;
+  margin-top: 3%;
+  background-color: #d4bd6d;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#about {
+  padding: 15px 80px 0;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.about-us-txt {
+  font-size: 70px;
+  font-weight: 500;
+  margin-top: 10%;
+  margin-top: 2%;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Arapey',serif;
+  margin-bottom: 8%;
+  padding-top: 7%;
+}
+.price{
+  font-size: 30px;
+  padding: 5% 10% 5% 10%;
+  text-align: center;
+  color: #d4bd6d;
+  border: 2px solid #d4bd6d;
+}
+.text-about {
+  width: 100%;
+  background: #fff;
+  margin: auto;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 4% 3%;
+  margin-top: 6vh;
+  box-shadow: rgb(149 157 165 / 20%) 15px 22px 24px;
+  min-height: 100px;
+  height: auto;
+  overflow: hidden;
+}
+.rooms-dim-c {
+  font-size: 60px;
+  font-weight: normal;
+  padding-top: 6%;
+  margin-top: 2%;
+  text-align: center;
+  line-height: 45px;
+  font-family: Serif;
+  margin-bottom: 14%;
+}
+.topnav .icon {
+  display: none;
+}
+
+.main-img{
+  max-width:100%;
+  height: auto;
+  padding-top: 105px;
+}
+#maini{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+#rooms{
+  padding: 15px 80px 0;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 95%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: .25rem;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  width: 100%;
+  border: 13px solid #fff;
+  background: #fff;
+  margin-top: 8%;
+  box-shadow: 10px 10px 20px -10px gray;
+}
+.rooms {
+  color: #d4bd6d;
+  text-transform: uppercase;
+  font-family: 'Oswald',sans-serif;
+  font-size: 15px;
+}
+.information-rooms {
+  font-size: 25px;
+  font-family: 'Arapey',serif;
+}
+.card-information {
+  padding-bottom: 20px;
+  font-family: 'Gilroy',sans-serif;
+  font-size: 22px;
+}
+.card-img-top {
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+  background-color: #fff;
+  padding: 20px;
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+.card-button {
+  bottom: .5vh;
+  text-align: center;
+}
+#text-dec{
+  text-decoration: none;
+  color: black;
+}
+.button-info {
+  font-size: 16px;
+}
+#card-button {
+  text-align: center;
+}
+.book-info {
+  font-size: 16px;
+}
+.book-button {
+  display: inline-block;
+  font-family: 'Gilroy',sans-serif;
+  padding: 4px;
+  background-color: #d4bd6d;
+  border: 0;
+  color: #fff;
+  width: 150%;
+  height: 80%;
+  margin-top: 14%;
+  box-shadow:inset 10px 10px 20px -10px gray;
+}
+.button-hover :hover{
+  background-color: #bba75e;
+}
+button:not(:disabled) {
+  cursor: pointer;
+}
+button {
+  appearance: auto;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.thz{
+  font-size: 30px;
+  font-family: serif;
+}
+#logo {
+  font-size: 35px;
+  transition: 0.4s;
+}
+.hotel {
+  height: auto;
+  width: 100%;
+  word-wrap: break-word;
+  font-size: calc(1vw + 0.8vh) !important;
+  font-family: 'Gilroy', sans-serif;
+}
+.information-rooms{
+  font-size: 48px;
+}
+.footer-information {
+  font-size: 60px;
+}
+.footer-adress {
+  text-decoration: none;
+  font-size: 26px;
+}
+.copyright {
+  font-family: 'Gilroy', sans-serif;
+  margin-left: 20px;
+  font-size: 20px;
+  margin-top: 0%;
+}
+#carouselExample1 {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  margin-top: -20%;
+  margin-bottom: -10%;
+}
+@media screen and (max-width: 1550px){
+  .thz{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1332px) {
+  .footnav a {display: none;}
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav
+  {
+      padding: 20px 10px !important;
+  }
+  .topnav a
+  {
+  float: none;
+  display: block;
+  text-align: left;
+  border-right: none;
+  }
+    .book-info {
+    font-size: 10px;
+  }
+  .aligned
+  {
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      flex-direction: column;
+      flex-wrap: nowrap;
+  }
+  .topnav.responsive {position: fixed;}
+  .topnav.responsive .icon {
+    text-align:right;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .price{
+    font-size: 27px;
+  }
+  .information-rooms{
+    font-size: 30px;
+  }
+  .card-information{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width:1200px) {
+    .text-about{
+        margin-top: 1vh;
+    }
+}
+@media screen and (max-width: 992px) {
+    .price{
+        font-size: 23px;
+    }
+    #desc-image {
+        padding-left: 0;
+    }
+    #desc {
+        padding-left: 15px;
+    }
+    #about {
+        padding: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #gallery{
+        padding-left: 0;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .hotel{
+        width: calc(84.9vw + 0.8vh) !important;
+    }
+    .icon-size{
+      font-size: 10px;
+    }
+}
+@media screen and (max-width: 640px) {
+  #mar2 {
+    margin-left: 1%;
+  }
+  #rooms{
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+   .topnav a:nth-child(2){
+    padding-left: 2%;
+     padding-right: 0;
+  }
+  .icon-size{
+    font-size: 5px;
+  }
+  .border-shadow {
+    border: 10px solid white;
+  }
+  .border-shadow2 {
+    border: 15px solid white;
+  }
+  .footer-information {
+    font-size: 30px;
+  }
+  .footer-adress {
+    font-size: 15px;
+  }
+  .copyright {
+    font-size:18px;
+  }
+  .icons{
+    margin-left: 20px;
+
+  }
+  .price{
+    font-size: 15px;
+  }
+  .about-us-txt {
+    margin-top: 0; 
+    margin-top: 0;
+    margin-bottom: 5%;
+    padding-top: 0;
+    font-size: 40px;
+  }
+  .rooms-dim-c {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+  #carouselExample1 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media screen and (max-width: 360px) {
+.grid-txt-image{
+  max-width: 360px;
+}
+}
